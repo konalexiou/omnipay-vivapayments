@@ -15,21 +15,12 @@ for operations in the EEA-31 region by the Bank of Greece.
 
 ## Installation
 
-Omnipay is installed via [Composer](http://getcomposer.org/). To install, simply add it
-to your `composer.json` file:
+Omnipay is installed via [Composer](http://getcomposer.org/). To install, simply:
 
-```json
-{
-    "require": {
-        "omnipay/vivapayments": "~2.0"
-    }
-}
 ```
+composer require konalexiou/omnipay-vivapayments
 
-And run composer to update your dependencies:
-
-    $ curl -s http://getcomposer.org/installer | php
-    $ php composer.phar update
+```
 
 ## Basic Usage
 
@@ -93,5 +84,3 @@ you can subscribe to.
 
 If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/delatbabel/omnipay-vivapayments/issues),
 or better yet, fork the library and submit a pull request.
-
-

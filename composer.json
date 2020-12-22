@@ -13,12 +13,12 @@
         "pay",
         "payment"
     ],
-    "homepage": "https://github.com/delatbabel/omnipay-vivapayments",
+    "homepage": "https://github.com/konalexiou/omnipay-vivapayments",
     "license": "MIT",
     "authors": [
         {
-            "name": "Del",
-            "email": "del@babel.com.au"
+            "name": "KonAlexiou",
+            "email": "konalexiou@gmail.com"
         }
     ],
     "autoload": {
@@ -26,7 +26,7 @@
     },
     "require": {
         "php": ">=5.3.0",
-        "omnipay/common": "~2.0"
+        "omnipay/common": "~3.0"
     },
     "require-dev": {
         "omnipay/tests": "~2.0",
